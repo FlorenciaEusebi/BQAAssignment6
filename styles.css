@@ -16,13 +16,13 @@ h1 {
   height: 72px;
   line-height: 36px;
   text-size-adjust: 100%;
-  vertical-align: baseline;
-  width: 530px;
+  max-width: 500px;
 }
 
 .line {
-  width: 112px;
+  width: 530px;
   height: 47px;
-  border-bottom: 1px solid rgb(27, 27, 27);
+  border-bottom: 1px solid #3f3f42;
   position: absolute;
+  max-width: 500px;
 }
