@@ -1,8 +1,71 @@
-h1 {
+
+body {
   position:static;
   display: block;
-  width: 500px;
-  padding: 16px;
+  width: 607px;
+  height: 12561.6px;
+  padding: 0px;
+  border-bottom: 0px;
+  margin: 0px;
+  background-color: #fff;
+  color: #3f3f42;
+  text-align: left;
+  font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-weight: 500;
+  line-height: 22px;
+  text-size-adjust: 100%;
+}
+
+header {
+  position:static;
+  display: block;
+  width: 575px;
+  height: 236px;
+  padding: 0 0 24px 0;
+  border-bottom: 1px solid #bababa;
+  margin: 0px;
+  background-color: #fff;
+  color: #3f3f42;
+  text-align: left;
+  font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-weight: 500;
+  line-height: 22px;
+  text-size-adjust: 100%;
+  max-width: 500px;
+}
+
+.my-h1 {
+  position:static;
+  display:block;
+  width: 575px;
+  height: 144px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  background-color: #fff;
+  color: #3f3f42;
+  font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
+  font-style: normal;
+  font-size: 44px;
+  font-stretch: 100%;
+  font-weight: 500;
+  line-height: 48px;
+  text-size-adjust: 100%;
+  vertical-align:baseline;
+}
+
+.my-div1 {
+  position:static;
+  display: block;
+  width: 607px;
+  height: 20px;
+  padding: 0 16px 0 16px;
   border: 0px;
   margin: 0px;
   background-color: #fff;
@@ -10,19 +73,196 @@ h1 {
   text-align: left;
   font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
   font-style: normal;
-  font-size: 32px;
+  font-size: 16px;
   font-stretch: 100%;
-  font-weight: 500;
-  height: 72px;
-  line-height: 36px;
+  font-weight: 400;
+  line-height: 48px;
   text-size-adjust: 100%;
-  max-width: 500px;
+  max-width: 1008px;
 }
 
+.my-d1 {
+  position:static;
+  display: block;
+  width: 575px;
+  height: 20px;
+  padding: 0px;
+  border: 0px;
+  margin: -4px 0 0 0;
+  background-color: #fff;
+  color: #3f3f42;
+  text-align: left;
+  font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-weight: 400;
+  line-height: 48px;
+  text-size-adjust: 100%;
+  max-width: 1008px;
+}
+
+.my-span {
+  position:static;
+  display: block;
+  height: 10px;
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  font-family: ReithSans, Helvetica, Arial;
+  font-size: 13px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-size-adjust: 100%;
+  vertical-align: baseline;
+  white-space: nowrap;
+  color: rgb(105, 105, 105);
+  border-bottom-color: rgb(105, 105, 105);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(105, 105, 105);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(105, 105, 105);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(105, 105, 105);
+  border-top-style: none;
+  border-top-width: 0px;
+}
+
+.my-div2 {
+  position:static;
+  display:block;
+  width: 575px;
+  height: 44px;
+  padding: 0px;
+  border: 0px;
+  margin: 16px 0 0 0;
+  background-color: #fff;
+  color: #3f3f42;
+  text-align: left;
+  font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-weight: 400;
+  line-height: 22px;
+  text-size-adjust: 100%;
+  max-width: 499px;
+}
+
+.my-share-icon {
+  position:static;
+  display:block;
+  height: 44px;
+  width: 44px;
+  padding: 0 11px 0 11px;
+  border:1px solid #FFFFFF;
+  font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 42px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  word-spacing: 0px;
+  background-color:  #FFFFFF;
+  background-position: 0% 0%;
+  color:  #FFFFFF;
+  overflow: hidden;
+  cursor: pointer;
+  outline: rgb(255, 0, 0);
+}
 .line {
   width: 530px;
   height: 47px;
   border-bottom: 1px solid #3f3f42;
   position: absolute;
   max-width: 500px;
+}
+
+.my-button {
+  position:relative;
+  display:flex;
+  left: 60px;
+  bottom: 44px;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 42px;
+  margin: 0px;
+  min-height: 42px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 0px;
+  width: 147.906px;
+  background-color: #fff;
+  border-style: solid;
+  font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+  font-size: 14px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  text-decoration-color: rgb(63, 63, 66);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-size-adjust: 100%;
+  vertical-align: baseline;
+  word-break: break-word;
+  color: rgb(63, 63, 66);
+  border-bottom-color: rgb(219, 127, 127);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(219, 127, 127);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(219, 127, 127);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(219, 127, 127);
+  border-top-style: solid;
+  border-top-width: 1px;
+  cursor: pointer;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  -webkit-box-align: center;
+}
+
+.line-2 {
+  align-items center
+  bottom 0px
+  display flex
+  height 9.875px
+  justify-content center
+  left 0px
+  margin-bottom 0px
+  margin-left 0px
+  margin-right 0px
+  margin-top 0px
+  overflow-x hidden
+  overflow-y hidden
+  padding-bottom 0px
+  padding-left 0px
+  padding-right 0px
+  padding-top 0px
+  position absolute
+  right 0px
+  top 0px
+  width 575px
 }
