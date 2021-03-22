@@ -4,7 +4,7 @@ body {
   display: block;
   width: 607px;
   height: 12561.6px;
-  padding: 0px;
+  padding: 20px;
   border-bottom: 0px;
   margin: 0px;
   background-color: #fff;
@@ -40,12 +40,16 @@ header {
   max-width: 500px;
 }
 
+a:hover {
+  color: #B80000;
+}
+
 .my-h1 {
   position:static;
   display:block;
   width: 575px;
   height: 144px;
-  padding: 0px;
+  padding: 16px;
   border: 0px;
   margin: 0px;
   background-color: #fff;
@@ -57,7 +61,6 @@ header {
   font-weight: 500;
   line-height: 48px;
   text-size-adjust: 100%;
-  vertical-align:baseline;
 }
 
 .my-div1 {
@@ -116,7 +119,6 @@ header {
   font-weight: 400;
   line-height: 16px;
   text-size-adjust: 100%;
-  vertical-align: baseline;
   white-space: nowrap;
   color: rgb(105, 105, 105);
   border-bottom-color: rgb(105, 105, 105);
@@ -215,7 +217,6 @@ header {
   text-decoration-color: rgb(63, 63, 66);
   text-decoration-line: none;
   text-decoration-style: solid;
-  text-decoration-thickness: auto;
   text-size-adjust: 100%;
   vertical-align: baseline;
   word-break: break-word;
@@ -244,25 +245,248 @@ header {
   -webkit-box-align: center;
 }
 
-.line-2 {
-  align-items center
-  bottom 0px
-  display flex
-  height 9.875px
-  justify-content center
-  left 0px
-  margin-bottom 0px
-  margin-left 0px
-  margin-right 0px
-  margin-top 0px
-  overflow-x hidden
-  overflow-y hidden
-  padding-bottom 0px
-  padding-left 0px
-  padding-right 0px
-  padding-top 0px
-  position absolute
-  right 0px
-  top 0px
-  width 575px
+.my-first-image {
+  position: static;
+  display: flex;
+  width: 800px;
+  height: 450px;
+  border: 0px;
+  padding: 16px;
+  margin: 20px;
+}
+
+.my-paragraphs {
+  position: static;
+  display: block;
+  width: auto;
+  height: auto;
+  border: 0px;
+  padding: 20px;
+  margin: 0px;
+  text-align: left;
+}
+
+.my-h2s {
+  position: static;
+  display: block;
+  width: auto;
+  height: auto;
+  border: 0px;
+  padding: 20px;
+  margin: 0px;
+  text-align: left;
+}
+
+.my-lists {
+  position: static;
+  display: block;
+  width: 556px;
+  height: 240px;
+  border: 0px;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.my-footer-p {
+  position: static;
+  display: block;
+  width: auto;
+  height: auto;
+  border: 0px;
+  padding: 20px;
+  margin: 0px;
+  text-align: left;
+  font-style: italic;
+}
+.my-list2 {
+  font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-decoration: none solid rgb(63, 63, 66);
+  text-align: start;
+  text-indent: 0px;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  word-spacing: 0px;
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  color: rgb(63, 63, 66);
+  height: 104px;
+  width: 606px;
+  border: 0px none rgb(63, 63, 66);
+  border-top: 0px none rgb(63, 63, 66);
+  border-right: 0px none rgb(63, 63, 66);
+  border-bottom: 0px none rgb(63, 63, 66);
+  border-left: 0px none rgb(63, 63, 66);
+  margin: -4px;
+  padding: 0px;
+  max-height: none;
+  min-height: 0px;
+  max-width: none;
+  min-width: 0px;
+  position: static;
+  top: auto;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  float: none;
+  display: flex;
+  clear: none;
+  z-index: auto;
+  list-style-image: none;
+  list-style-type: none;
+  list-style-position: outside;
+  border-collapse: separate;
+  border-spacing: 0px 0px;
+  caption-side: top;
+  empty-cells: show;
+  table-layout: auto;
+  overflow: visible;
+  cursor: auto;
+  visibility: visible;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: rgb(255, 0, 0);
+  outline-offset: 0px;
+  box-sizing: content-box;
+  resize: none;
+  text-shadow: none;
+  text-overflow: clip;
+  word-wrap: normal;
+  box-shadow: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.my-listitem1 {
+	font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: left;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+	background-attachment: scroll;
+	background-color: #FFFFFF;
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(255, 255, 255);
+	height: 42px;
+	width: 244.25px;
+	border: 1px solid rgb(219, 127, 127);
+	border-top: 1px solid rgb(219, 127, 127);
+	border-right: 1px solid rgb(219, 127, 127);
+	border-bottom: 1px solid rgb(219, 127, 127);
+	border-left: 1px solid rgb(219, 127, 127);
+	margin: 0px;
+	padding: 0px 16px;
+	max-height: none;
+	min-height: 42px;
+	max-width: none;
+	min-width: 0px;
+	position: static;
+	top: auto;
+	bottom: auto;
+	right: auto;
+	left: auto;
+	float: none;
+	display: flex;
+	clear: none;
+	z-index: auto;
+	list-style-image: none;
+	list-style-type: none;
+	list-style-position: outside;
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+	overflow: visible;
+	cursor: pointer;
+	visibility: visible;
+	transform: none;
+	transition: all 0s ease 0s;
+	outline: rgb(255, 0, 0);
+	outline-offset: 0px;
+	box-sizing: content-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.Buttons {
+  font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: left;
+  text-indent: 0px;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  word-spacing: 0px;
+  position: static;
+  top: auto;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  float: none;
+  display: flex;
+  clear: none;
+  z-index: auto;
+  list-style-image: none;
+  list-style-type: none;
+  list-style-position: outside;
+  border-collapse: separate;
+  border-spacing: 0px 0px;
+  caption-side: top;
+  empty-cells: show;
+  table-layout: auto;
+  overflow: visible;
+  cursor: pointer;
+  visibility: visible;
+  transform: none;
+  transition: all 0s ease 0s;
+  outline: rgb(255, 0, 0);
+  outline-offset: 0px;
+  box-sizing: content-box;
+  resize: none;
+  text-shadow: none;
+  text-overflow: clip;
+  word-wrap: normal;
+  box-shadow: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
